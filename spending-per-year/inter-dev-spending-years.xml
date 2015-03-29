@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<perYearSet>
+    
+    
+    <perYear name = "2000">
+        <year>2000</year>
+        <spending>555531222.00</spending>
+        <adjustedSpending>769144166.47</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2001">
+        <year>2001</year>
+        <spending>879592921.00</spending>
+        <adjustedSpending>1173997845.73</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2002">
+        <year>2002</year>
+        <spending>2170452852.00</spending>
+        <adjustedSpending>2864201155.74</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2003">
+        <year>2003</year>
+        <spending>2676446250.00</spending>
+        <adjustedSpending>3442510862.68</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2004">
+        <year>2004</year>
+        <spending>1857426590.00</spending>
+        <adjustedSpending>2343917905.34</adjustedSpending>
+    </perYear>
+
+
+    <perYear name = "2005">
+        <year>2005</year>
+        <spending>2736709597.00</spending>
+        <adjustedSpending>3353897167.21</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2006">
+        <year>2006</year>
+        <spending>3678028535.00</spending>
+        <adjustedSpending>4334750453.00</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2007">
+        <year>2007</year>
+        <spending>10352271778.00</spending>
+        <adjustedSpending>11952604440.46</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2008">
+        <year>2008</year>
+        <spending>12909755178.00</spending>
+        <adjustedSpending>14292279267.57</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2009">
+        <year>2009</year>
+        <spending>14013875424.00</spending>
+        <adjustedSpending>15514641325</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2010">
+        <year>2010</year>
+        <spending>14703312885.00</spending>
+        <adjustedSpending>15858206281</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2011">
+        <year>2011</year>
+        <spending>14260097123.00</spending>
+        <adjustedSpending>15133226404</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2012">
+        <year>2012</year>
+        <spending>14361649708.00</spending>
+        <adjustedSpending>14807835653</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2013">
+        <year>2013</year>
+        <spending>13517416296.00</spending>
+        <adjustedSpending>13718580903</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2014">
+        <year>2014</year>
+        <spending>13644235609.00</spending>
+        <adjustedSpending>13632044715</adjustedSpending>
+    </perYear>
+    
+    
+    <perYear name = "2015">
+        <year>2015</year>
+        <spending>5009968935.00</spending>
+        <adjustedSpending>5009968935.00</adjustedSpending>
+    </perYear>
+    
+    
+</perYearSet>
