@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<foraidSet>
+    
+    
+    <foraid name = "Afghanistan">
+        <country>Afghanistan</country>
+        <dispursement>1026848561</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Egypt">
+        <country>Egypt</country>
+        <dispursement>613966683</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Jordan">
+        <country>Jordan</country>
+        <dispursement>574415770</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "West Bank and Gaza">
+        <country>West Bank and Gaza</country>
+        <dispursement>535912294</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Kenya">
+        <country>Kenya</country>
+        <dispursement>497473392</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Ethiopia">
+        <country>Ethiopia</country>
+        <dispursement>370825714</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Nigeria">
+        <country>Nigeria</country>
+        <dispursement>303534727</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Haiti">
+        <country>Haiti</country>
+        <dispursement>270723667</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Tanzania">
+        <country>Tanzania</country>
+        <dispursement>265730284</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Uganda">
+        <country>Uganda</country>
+        <dispursement>253392292</dispursement>
+    </foraid>
+   
+   
+</foraidSet>
