@@ -2,59 +2,51 @@
 <sectorSet>
     
     
-    <sector>
-        <category>Democracy and Governance</category>
-        <disbursement>828915298</disbursement>
-        <percent>0.105332016</percent>
+    <sector name = "Democracy and Governance">
+        <category>'Democracy and Governance'</category>
+        <percent>828915298</percent>
     </sector>
     
     
-    <sector>
-        <category>Economic Development</category>
-        <disbursement>2153869585</disbursement>
-        <percent>0.273696752</percent>
+    <sector name = "Economic Development">
+        <category>'Economic Development'</category>
+        <percent>2153869585</percent>
     </sector>
     
     
-    <sector>
-        <category>Education and Social Services</category>
-        <disbursement>893254312</disbursement>
-        <percent>0.11350771</percent>
+    <sector name = "Education and Social Services">
+        <category>'Education and Social Services'</category>
+        <percent>893254312</percent>
     </sector>
     
     
-    <sector>
-        <category>Environment</category>
-        <disbursement>211275166</disbursement>
-        <percent>0.026847181</percent>
+    <sector name = "Environment">
+        <category>'Environment'</category>
+        <percent>211275166</percent>
     </sector>
     
     
-    <sector>
-        <category>Health</category>
-        <disbursement>2605956145</disbursement>
-        <percent>0.331144345</percent>
+    <sector name = "Health">
+        <category>'Health'</category>
+        <percent>2605956145</percent>
     </sector>
     
     
-    <sector>
-        <category>Humanitarian Assistance</category>
-        <disbursement>533328557</disbursement>
-        <percent>0.067771185</percent>
+    <sector name = "Humanitarian Assistance">
+        <category>'Humanitarian Assistance'</category>
+        <percent>533328557</percent>
     </sector>
     
     
-    <sector>
-        <category>Peace and Security</category>
-        <disbursement>308706778</disbursement>
-        <percent>0.039228022</percent>
+    <sector name = "Peace and Security">
+        <category>'Peace and Security'</category>
+        <percent>308706778</percent>
     </sector>
     
     
-    <sector>
-        <category>Program Management</category>
-        <disbursement>334241629</disbursement>
-        <percent>0.042472789</percent>
+    <sector name = "Program Management">
+        <category>'Program Management'</category>
+        <percent>334241629</percent>
     </sector>
     
     
