@@ -21,7 +21,7 @@
     <script src="http://code.highcharts.com/highcharts.js"></script>
     <script src="http://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
     
-      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
     <link href="css/data-table.css" rel="stylesheet" type="text/css" />
     <script language="javascript" type="text/javascript" src="js/script.js"></script>
@@ -30,41 +30,72 @@
   
   
   <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="http://www.latimes.com">
+	      </a>
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+		<li><a href="http://www.latimes.com/local/">LOCAL <span class="sr-only">(current)</span></a></li>
+		<li><a href="http://www.latimes.com/california">CALIFORNIA</a></li>
+		<li><a href="http://www.latimes.com/sports">SPORTS</a></li>
+		<li><a href="http://www.latimes.com/entertainment">ENTERTAINMENT</a></li>
+		<li><a href="http://www.latimes.com/nation">NATION</a></li>
+		<li><a href="http://www.latimes.com/world">WORLD</a></li>
+		<li><a href="http://www.latimes.com/business">BUSINESS</a></li>
+		<li><a href="http://www.latimes.com/opinion">OPINION</a></li>
+		<li><a href="http://www.latimes.com/lifestyle">LIFESTYLE</a></li>
+		<li><a href="http://www.latimes.com/travel">TRAVEL</a></li>
+	      </ul>	    
+	      
+	    </div><!-- /.navbar-collapse -->
+	</div>
+      </div><!-- /.container-fluid -->
+    </nav>
     <div class="container">
 	<div class="row">
-	    <div id="column1"></div>
-	    <div id="pie1"></div>
-	    <div id="column2"></div>
-	    
+	    <h1>The politics of foreign aid and how it's spent</h1></p>
+	    <h2><span style="color:black">By</span> KRISTI WALKER</h2></p>
+	    <h3>APRIL 5, 2015</h3></p>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="row">
+	    <div id="line1"></div>
+	</div>
+	<div class="row">
+	    <div class="col-xs-6">
+		<div id="column1"></div>
+	    </div>
+	    <div class="col-xs-6">
+		<div id="pie1"></div>
+	    </div>
+	</div>
 	    <table id="example" class="display" cellspacing="0" width="100%">
 		<thead>
 		    <tr>
-			<th>Name</th>
-			<th>Position</th>
-			<th>Office</th>
-			<th>Extn.</th>
-			<th>Start date</th>
-			<th>Salary</th>
+			<th>Country</th>
+			<th>Dispursement</th>
 		    </tr>
 		</thead>
-	 
-		<tfoot>
-		    <tr>
-			<th>Name</th>
-			<th>Position</th>
-			<th>Office</th>
-			<th>Extn.</th>
-			<th>Start date</th>
-			<th>Salary</th>
-		    </tr>
-		</tfoot>
+
 	    </table>
-	</div>
     </div>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

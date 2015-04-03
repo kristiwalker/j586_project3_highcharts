@@ -1,14 +1,7 @@
 <?xml version="1.0"?>
 <perYearSet>
     
-    
-    <perYear name = "2000">
-        <year>2000</year>
-        <spending>555531222.00</spending>
-        <adjustedSpending>0.769</adjustedSpending>
-        <adjustedSpendingFull>769144166.47</adjustedSpendingFull>
 
-    </perYear>
     
     
     <perYear name = "2001">

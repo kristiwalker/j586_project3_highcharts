@@ -25,19 +25,8 @@
                             //console.log("once for every person");
                             var $foraid = $(this); 
                             var place = $foraid.attr("name");
-                            var description = $foraid.find('country').text();
-                            var imageurl = $foraid.attr('imageurl');
                             dispursement.push(parseInt($foraid.find('dispursement').text())); //parseInt is a function that says turn this text into an integer. Push adds the data to the back of each one so that order makes sense. Pop goes to the front.
-                            country.push($foraid.find('country').text()); //parseInt is a function that says turn this text into an integer. Push adds the data to the back of each one so that order makes sense. Pop goes to the front.
-        
-                        var html = '<dt> <img class="bioImage" alt="" src="' + imageurl + '" /> </dt>';
-                        html += '<dd> <span class="loadingPic" alt="Loading" />';
-                        html += '<p class="name">' + place + '</p>';
-                        html += '<p> ' + description + '</p>' ;
-                        html += '</dd>';
-            
-                        $('dl').append($(html));
-                        
+                            country.push($foraid.find('country').text()); //parseInt is a function that says turn this text into an integer. Push adds the data to the back of each one so that order makes sense. Pop goes to the front.                        
                     
                 });
 	
@@ -94,18 +83,7 @@
                         $(xml).find('sector').each(function(){ //starts loop to find all people, etc
                             //console.log("once for every person");
                             var $sector = $(this); 
-                            var categories = $sector.attr("name");
-                            var description = $sector.find('category').text();
-                            var imageurl = $sector.attr('imageurl');
-        
-                        var html = '<dt> <img class="bioImage" alt="" src="' + imageurl + '" /> </dt>';
-                        html += '<dd> <span class="loadingPic" alt="Loading" />';
-                        html += '<p class="name">' + categories + '</p>';
-                        html += '<p> ' + description + '</p>' ;
-                        html += '</dd>';
-            
-                        $('dl').append($(html));
-                        
+                            var categories = $sector.attr("name");                        
                     
                 });
 	
@@ -116,13 +94,13 @@
 	
                 console.log(category);
                 var chart2 = new Highcharts.Chart({
-                        colors: ['#3e7fa3'],
+                        colors: ['#3e7fa3','#316480','#8bb2c8','#316480','#6599b6','#b2ccda','#d8e5ec','#78a6bf'],
                         chart: {
                             renderTo: 'pie1',
                             type: 'pie'
                         },
                         title: {
-                            text: 'Foreign Aid Categories'
+                            text: 'Spending Categories'
                         },
                         
                         plotOptions: {
@@ -177,18 +155,10 @@
                             //console.log("once for every person");
                             var $perYear = $(this); 
                             var time = $perYear.attr("name");
-                            var description = $perYear.find('spending').text();
-                            var imageurl = $perYear.attr('imageurl');
                             adjustedSpending.push(parseInt($perYear.find('adjustedSpending').text())); //parseInt is a function that says turn this text into an integer. Push adds the data to the back of each one so that order makes sense. Pop goes to the front.
                             year.push($perYear.find('year').text()); //parseInt is a function that says turn this text into an integer. Push adds the data to the back of each one so that order makes sense. Pop goes to the front.
 
-                        var html = '<dt> <img class="bioImage" alt="" src="' + imageurl + '" /> </dt>';
-                        html += '<dd> <span class="loadingPic" alt="Loading" />';
-                        html += '<p class="name">' + time + '</p>';
-                        html += '<p> ' + description + '</p>' ;
-                        html += '</dd>';
             
-                        $('dl').append($(html));
                         
                     
                 });
@@ -203,18 +173,55 @@
                 var chart3 = new Highcharts.Chart({
                         colors: ['#3e7fa3'],
                         chart: {
-                            renderTo: 'column2',
+                            renderTo: 'line1',
                             type: 'line'
                         },
                         title: {
-                            text: 'Foreign Aid Categories'
+                            text: 'Funding to the Agency for International Development'
                         },
                         xAxis: {
-                            categories: year
+                            categories: year,
+                            plotBands: [{
+                                from: -0.5,
+                                to: 1.5,
+                                color: "#f4f3e9",
+                                label: {
+                                    "text": "Plot band 1"
+                                }
+                            }, {
+                                from: 1.5,
+                                to: 5.5,
+                                color: "#d85662",
+                                label: {
+                                    "text": "Plot band 1"
+                                }
+                            },{
+                                from: 5.5,
+                                to: 9.5,
+                                color: "#9ebfd1",
+                                label: {
+                                    "text": "Plot band 1"
+                                }
+                            },{
+                                from: 9.5,
+                                to: 13.5,
+                                color: "#f4f3e9",
+                                label: {
+                                    "text": "Plot band 1"
+                                }
+                            },{
+                                from: 13.5,
+                                to: 14.5,
+                                color: "#d85662",
+                                label: {
+                                    text: "Plot band 2"
+                                        }
+                                        
+                                }]   
                         },
                         yAxis: {
                             title: {
-                                text: 'Dollars'
+                                text: 'Billions'
                             }
                         },
                         series: [{
@@ -233,7 +240,10 @@
         
         $(document).ready(function() {
             $('#example').dataTable( {
-                "ajax": 'dataTable.json'
+                "ajax": 'all-dispursements/usaid-all-dispursements.json',
+                "scrollY":        "400px",
+                "scrollCollapse": true,
+                "paging":         false
             } );
         } );
             
