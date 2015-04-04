@@ -45,7 +45,7 @@
                             type: 'column'
                         },
                         title: {
-                            text: 'Top 10 countries that recieve most aid from U.S.'
+                            text: ''
                         },
                         xAxis: {
                             categories: country
@@ -56,7 +56,8 @@
                             }
                         },
                         series: [{
-                            name: 'Country',
+                            name: 'Dollars',
+                            showInLegend: false,
                             data: dispursement
                         }]
                 });
@@ -97,10 +98,15 @@
                         colors: ['#3e7fa3','#316480','#8bb2c8','#316480','#6599b6','#b2ccda','#d8e5ec','#78a6bf'],
                         chart: {
                             renderTo: 'pie1',
-                            type: 'pie'
+                            type: 'pie',
+                            style: {
+                                fontFamily: 'arial, serif',
+                                fontSize: 11,
+                                fontWeight: 200
+                                }
                         },
                         title: {
-                            text: 'Spending Categories'
+                            text: ''
                         },
                         
                         plotOptions: {
@@ -116,7 +122,7 @@
                         
                             
                         series: [{
-                            name: 'Sector',
+                            name: 'Dollars',
                             data: [
                             ['Democracy and Governance',828915298],
                             ['Economic Development',2153869585],
@@ -171,61 +177,49 @@
 	
 	
                 var chart3 = new Highcharts.Chart({
-                        colors: ['#3e7fa3'],
+                        colors: ['#000'],
                         chart: {
                             renderTo: 'line1',
                             type: 'line'
                         },
                         title: {
-                            text: 'Funding to the Agency for International Development'
+                            text: ''
                         },
                         xAxis: {
                             categories: year,
                             plotBands: [{
                                 from: -0.5,
                                 to: 1.5,
-                                color: "#f4f3e9",
-                                label: {
-                                    "text": "Plot band 1"
-                                }
+                                color: "#F5F5F5"
                             }, {
                                 from: 1.5,
                                 to: 5.5,
-                                color: "#d85662",
-                                label: {
-                                    "text": "Plot band 1"
-                                }
+                                color: "#fa9d9d"
+
                             },{
                                 from: 5.5,
                                 to: 9.5,
-                                color: "#9ebfd1",
-                                label: {
-                                    "text": "Plot band 1"
-                                }
+                                color: "#a6cee3"
                             },{
                                 from: 9.5,
                                 to: 13.5,
-                                color: "#f4f3e9",
-                                label: {
-                                    "text": "Plot band 1"
-                                }
+                                color: "#F5F5F5"
                             },{
                                 from: 13.5,
                                 to: 14.5,
-                                color: "#d85662",
-                                label: {
-                                    text: "Plot band 2"
-                                        }
-                                        
-                                }]   
+                                color: "#fa9d9d"
+                                }]
                         },
                         yAxis: {
                             title: {
                                 text: 'Billions'
-                            }
+                            },
+                            gridLineColor: 'white',
+
                         },
                         series: [{
-                            name: 'Sector',
+                            showInLegend: false,
+                            name: 'Billions',
                             data: adjustedSpending
                         }],
                 });

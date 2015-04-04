@@ -1,22 +1,14 @@
-﻿body{
-    color: #666;
-    font-family: helvetica, Arial, Sans-Serif;
-    margin: 0 auto;
-    padding-top: 15px;
-}
-
-p{
+﻿p{
     line-height:26px;
     font-size:18px;
     font-family: georgia;
-    margin-top:30px;
     
 }
 
 h1{
-    font-size: 45px;
-    color: black;
-    font-family: hoefler text;
+    font-size: 42px;
+    color: #000;
+    font-family: georgia;
     font-weight: 600;
 }
 
@@ -26,23 +18,40 @@ h2{
     font-size: 11px;
     font-weight: 700;
     line-height: 1px;
-    margin: 0;
 }
 
 h3{
     color:#666;
     font-family:arial;
-    font-size: 11px;
+    font-size: 10px;
     letter-spacing: .5px;
     line-height: 1px;
-    margin:0;
+}
+    
+h4{
+    font-family:georgia;
+    font-weight:700;
+    font-size:16px;
+    color:#000;
 }
 
+h5{
+    font-family:georgia;
+    font-weight:700;
+    font-size:16px;
+    color:#000;
+    margin-bottom:30px;
+}
+    
 .name
 {
     font-weight: bold;
     font-size: 1.25em;
     color: #56A0D3;
+}
+
+.intro{
+    margin-top:30px;
 }
 
 ul{
@@ -78,7 +87,6 @@ a:hover{
 
 .navbar{
     border-radius:0px;
-    margin-top:-15px;
 
 }
 
@@ -94,8 +102,8 @@ a:hover{
 
 .navbar-brand{
     min-width:170px;
-    background-image: url('latimes-logo.png');
-    background-position: center;
+    background-image: url('latimes-logo2.png');
+    background-position: top;
     background-repeat: no-repeat;
     margin-right:0px;
     margin-left:10px;
@@ -112,4 +120,37 @@ a:hover{
     width:25px;
     border:none;
 
+}
+
+
+.story{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+@media(min-width:768px){
+    .story{
+        padding-left:100px;
+        padding-right:100px;
+    }  
+}
+
+.categories-title{
+    margin-bottom:0;
+    text-align:center;
+}
+
+.legend{
+    font-family:georgia, serif;
+    font-size:17px;
+    color:#666;
+    padding-left:0;
+    padding-right:0;
+    margin-bottom:10px;
+    margin-top:10px;
+    
+}
+
+.col-xs-10{
+    padding-right:0px;
 }
