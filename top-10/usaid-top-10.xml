@@ -4,61 +4,61 @@
     
     <foraid name = "Afghanistan">
         <country>Afghanistan</country>
-        <dispursement>1026848561</dispursement>
-    </foraid>
-    
-    
-    <foraid name = "Egypt">
-        <country>Egypt</country>
-        <dispursement>613966683</dispursement>
+        <dispursement>11208700000</dispursement>
     </foraid>
     
     
     <foraid name = "Jordan">
         <country>Jordan</country>
-        <dispursement>574415770</dispursement>
+        <dispursement>798000000</dispursement>
     </foraid>
     
     
-    <foraid name = "West Bank and Gaza">
-        <country>West Bank and Gaza</country>
-        <dispursement>535912294</dispursement>
+    <foraid name = "Pakistan">
+        <country>Pakistan</country>
+        <dispursement>575800000</dispursement>
     </foraid>
     
     
     <foraid name = "Kenya">
         <country>Kenya</country>
-        <dispursement>497473392</dispursement>
+        <dispursement>515600000</dispursement>
     </foraid>
     
     
     <foraid name = "Ethiopia">
         <country>Ethiopia</country>
-        <dispursement>370825714</dispursement>
+        <dispursement>490000000</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "Syrian Arab Republic">
+        <country>Syrian Arab Republic</country>
+        <dispursement>472000000</dispursement>
     </foraid>
     
     
     <foraid name = "Nigeria">
         <country>Nigeria</country>
-        <dispursement>303534727</dispursement>
+        <dispursement>350500000</dispursement>
     </foraid>
     
     
-    <foraid name = "Haiti">
-        <country>Haiti</country>
-        <dispursement>270723667</dispursement>
+    <foraid name = "South Sudan">
+        <country>South Sudan</country>
+        <dispursement>312300000</dispursement>
+    </foraid>
+    
+    
+    <foraid name = "South Africa">
+        <country>South Africa</country>
+        <dispursement>312200000</dispursement>
     </foraid>
     
     
     <foraid name = "Tanzania">
         <country>Tanzania</country>
-        <dispursement>265730284</dispursement>
-    </foraid>
-    
-    
-    <foraid name = "Uganda">
-        <country>Uganda</country>
-        <dispursement>253392292</dispursement>
+        <dispursement>293400000</dispursement>
     </foraid>
    
    

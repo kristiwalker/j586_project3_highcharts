@@ -1,7 +1,12 @@
-﻿p{
+﻿body{
+    color:#666;
+}
+
+p{
     line-height:26px;
     font-size:18px;
     font-family: georgia;
+    color: #333;
     
 }
 
@@ -153,4 +158,60 @@ a:hover{
 
 .col-xs-10{
     padding-right:0px;
+}
+
+select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
+   
+select {
+   width: 250px;
+   height: 40px;
+   overflow: hidden;
+   background-color: white;
+   background: url("select-arrows.png") no-repeat right white;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-right:10px;
+   margin-left:10px;
+   color:#666;
+   font-family:arial;
+   font-weight:normal;
+}
+
+form {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
+   
+form {
+   width: 250px;
+   height: 40px;
+   overflow: hidden;
+   background-color: white;
+   background: url("select-arrows.png") no-repeat right white;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-right:10px;
+   margin-left:10px;
+   color:#666;
+   font-family:arial;
+   font-weight:normal;
 }

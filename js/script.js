@@ -39,10 +39,13 @@
         console.log(country);
 	
                 var chart1 = new Highcharts.Chart({
-                        colors: ['#3e7fa3'],
+                        colors: ['#A6CEE3'],
                         chart: {
                             renderTo: 'column1',
                             type: 'column'
+                        },
+                         credits: {
+                                enabled: false
                         },
                         title: {
                             text: ''
@@ -95,15 +98,13 @@
 	
                 console.log(category);
                 var chart2 = new Highcharts.Chart({
-                        colors: ['#3e7fa3','#316480','#8bb2c8','#316480','#6599b6','#b2ccda','#d8e5ec','#78a6bf'],
+                        colors: ['#DBEBF4','#CAE2EE','#A6CEE3','#B8D8E9','#85A5B6','#647C88','#42525B','#21292D'],
                         chart: {
                             renderTo: 'pie1',
-                            type: 'pie',
-                            style: {
-                                fontFamily: 'arial, serif',
-                                fontSize: 11,
-                                fontWeight: 200
-                                }
+                            type: 'pie'
+                        },
+                         credits: {
+                                enabled: false
                         },
                         title: {
                             text: ''
@@ -114,24 +115,34 @@
                                 allowPointSelect: true,
                                 cursor: 'pointer',
                                 dataLabels: {
-                                    enabled: true
+                                    enabled: false
                                 },
-                                showInLegend: false
+                                style:{
+                                        fontSize:'11px'
+                                },
+                                showInLegend: true
                             }
                         },             
                         
-                            
+                        legend: {
+                                align: 'center',
+                                layout: 'vertical',
+                                verticalAlign: 'bottom',
+                                x: 40,
+                                y: 0
+                            },
+                                
                         series: [{
-                            name: 'Dollars',
+                            name: 'Billions',
                             data: [
-                            ['Democracy and Governance',828915298],
-                            ['Economic Development',2153869585],
-                            ['Education and Social Services',893254312],
-                            ['Environment',211275166],
-                            ['Health',2605956145],
-                            ['Humanitarian Assistance',533328557],
-                            ['Peace and Security',308706778],
-                            ['Program Management',334241629],
+                            ['Peace and security',8.6],
+                            ['Humanitarian assistance',6.2],
+                            ['Health',9.2],
+                            ['Program management',1.3],
+                            ['Economic development',2.8],
+                            ['Democracy, human rights and governance',1.9],
+                            ['Education and social services',1.4],
+                            ['Environment',0.8],
 
                             ]
                         }]
@@ -181,6 +192,9 @@
                         chart: {
                             renderTo: 'line1',
                             type: 'line'
+                        },
+                         credits: {
+                                enabled: false
                         },
                         title: {
                             text: ''
@@ -234,10 +248,11 @@
         
         $(document).ready(function() {
             $('#example').dataTable( {
-                "ajax": 'all-dispursements/usaid-all-dispursements.json',
-                "scrollY":        "400px",
-                "scrollCollapse": true,
-                "paging":         false
-            } );
+                "ajax": 'js/foreignAidTable.json',
+                "paging": true,
+                "aLengthMenu": [[10, 25, 50, 75, 126], ["10 per page", "25 per page", "50 per page", "75 per page", "All"]],
+                "iDisplayLength": 10,
+                "bInfo" : false
+                });
         } );
-            
+
