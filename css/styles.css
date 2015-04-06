@@ -10,11 +10,40 @@ p{
     
 }
 
+a:link{
+    color:white;
+    text-decoration:none;
+    font-family:arial, sans-serif;
+    font-size:11px;
+}
+
+a:visited{
+    text-decoration:none;
+    color:white;
+    font-family:arial, sans-serif;
+    font-size:11px;
+}
+
+a:hover{
+    color:white;
+    text-decoration:none;
+    font-family:arial, sans-serif;
+    font-size:11px;
+}
+
+a:active{
+    color:white;
+    text-decoration:none;
+    font-family:arial, sans-serif;
+    font-size:11px;
+}
+
 h1{
     font-size: 42px;
     color: #000;
     font-family: georgia;
     font-weight: 600;
+    line-height:50px;
 }
 
 h2{
@@ -65,10 +94,6 @@ ul{
 
 
 
-a:hover{
-    color:blue;
-}
-
 .navbar-inverse{
     background-color:#282828;
     height:40px;
@@ -88,6 +113,7 @@ a:hover{
     color:white;
     
 }
+
 
 
 .navbar{
@@ -133,12 +159,42 @@ a:hover{
     padding-right:25px;
 }
 
+
+
+.big-fact{
+    color:#a6cee3;
+    text-align:left;
+    font-size:50px;
+    margin-right:20px;
+    padding-top:30px;
+}
+
+.big-fact-text{
+    line-height:20px;
+    margin-bottom:30px;
+    color:#666;
+}
+
 @media(min-width:768px){
     .story{
         padding-left:100px;
         padding-right:100px;
-    }  
+    }
+    .big-fact{
+    color:#a6cee3;
+    text-align:left;
+    font-size:60px;
+    padding-top:12px;
+    padding-left:10px;
+    }
+
+    .big-fact-text{
+    line-height:20px;
+    margin-left:0px;
+    margin-bottom:50px;
+    } 
 }
+
 
 .categories-title{
     margin-bottom:0;
@@ -153,6 +209,10 @@ a:hover{
     padding-right:0;
     margin-bottom:10px;
     margin-top:10px;
+    
+}
+
+column1-text{
     
 }
 
@@ -174,7 +234,7 @@ select {
    
    
 select {
-   width: 250px;
+   width: 75px;
    height: 40px;
    overflow: hidden;
    background-color: white;
@@ -214,4 +274,45 @@ form {
    color:#666;
    font-family:arial;
    font-weight:normal;
+}
+
+.footer{
+    background-color: #282828;
+    min-height:50px;
+}
+
+
+.footer-brand{
+    margin-right:0px;
+    margin-left:-35px;
+    padding-top:2px;
+}
+
+
+.footer-links{
+    float:left;
+    padding-bottom:10px;
+    line-height:15px;
+    margin-left:-10px;
+    margin-right:-30px;
+}
+
+
+@media(min-width:768px){
+    .footer-links{
+        float:left;
+        padding-top:5px;
+        margin-left:-25px;
+    }
+    .footer-brand{
+    margin-right:0px;
+    margin-left:10px;
+    padding-top:1px;
+    }
+
+
+}
+
+.column1-text, .pie1-text{
+    margin-left:-15px;
 }

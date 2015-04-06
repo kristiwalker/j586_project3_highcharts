@@ -30,13 +30,11 @@
                     
                 });
 	
-                console.log(dispursement);
                 buildChart(); //finally builds chart -- needs to be inside function but outside loop so it won't try to write the chart 100 times, etc.
         }
 
         function buildChart(xml){ //tells how to build chart, but need to add buildChart blah blah in document ready above
 	
-        console.log(country);
 	
                 var chart1 = new Highcharts.Chart({
                         colors: ['#A6CEE3'],
@@ -133,16 +131,16 @@
                             },
                                 
                         series: [{
-                            name: 'Billions',
+                            name: 'Percent',
                             data: [
-                            ['Peace and security',8.6],
-                            ['Humanitarian assistance',6.2],
-                            ['Health',9.2],
-                            ['Program management',1.3],
-                            ['Economic development',2.8],
-                            ['Democracy, human rights and governance',1.9],
-                            ['Education and social services',1.4],
-                            ['Environment',0.8],
+                            ['Peace and security',26.5],
+                            ['Humanitarian assistance',19.1],
+                            ['Health',29.6],
+                            ['Program management',4.2],
+                            ['Economic development',8.5],
+                            ['Democracy, human rights and governance',6],
+                            ['Education and social services',4.5],
+                            ['Environment',2.5],
 
                             ]
                         }]
@@ -180,7 +178,6 @@
                     
                 });
 	
-                console.log(adjustedSpending);
                 buildChart(); //finally builds chart -- needs to be inside function but outside loop so it won't try to write the chart 100 times, etc.
         }
 
@@ -188,7 +185,7 @@
 	
 	
                 var chart3 = new Highcharts.Chart({
-                        colors: ['#000'],
+                        colors: ['#444'],
                         chart: {
                             renderTo: 'line1',
                             type: 'line'
@@ -250,7 +247,7 @@
             $('#example').dataTable( {
                 "ajax": 'js/foreignAidTable.json',
                 "paging": true,
-                "aLengthMenu": [[10, 25, 50, 75, 126], ["10 per page", "25 per page", "50 per page", "75 per page", "All"]],
+                "aLengthMenu": [[10, 25, 50, 75, 126], ["10", "25", "50", "75", "All"]],
                 "iDisplayLength": 10,
                 "bInfo" : false
                 });

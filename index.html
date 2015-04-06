@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Foreign Aid Interactive Story</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -66,13 +66,34 @@
     </nav>
     <div class="container story">
 	<div class="row">
-	    <h1>The politics of foreign aid and how it's spent</h1></p>
-	    <h2><span style="color:black">By</span> KRISTI WALKER</h2></p>
-	    <h3>APRIL 5, 2015</h3></p>
-	    <p class= "intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    <a href="www.twitter.com"><img src="images/facebook-icon.png" onmouseover="this.src='images/facebook-icon-hover.png'" onmouseout="this.src='images/facebook-icon.png'" alt="Facebook Icon"></a>
+	    <a href="www.twitter.com"><img src="images/twitter-icon.png" onmouseover="this.src='images/twitter-icon-hover.png'" onmouseout="this.src='images/twitter-icon.png'" alt="Twitter Icon"></a>
+	    <a href="www.twitter.com"><img src="images/reply-icon.png" onmouseover="this.src='images/reply-icon-hover.png'" onmouseout="this.src='images/reply-icon.png'" alt="Reply Icon"></a>
+	    <a href="www.twitter.com"><img src="images/email-icon.png" onmouseover="this.src='images/email-icon-hover.png'" onmouseout="this.src='images/email-icon.png'" alt="Email Icon"></a>
+	    <a href="www.twitter.com"><img src="images/print-icon.png" onmouseover="this.src='images/print-icon-hover.png'" onmouseout="this.src='images/print-icon.png'" alt="Print Icon"></a>
+
 	</div>
 	<div class="row">
-	    <h4>Agency of International Development (USAID) funding</h4>
+	    <h1>The politics of foreign aid and how it's spent</h1></p>
+	    <h2><span style="color:black">By</span> KRISTI WALKER</h2></p>
+	    <h3>APRIL 5, 2015</h3><br>
+	    <p>The U.S. is thought of as one of the most generous countries in the world. In fact, the American public believes that 25% of its budget is spent on foreign aid, even though the actual amount hardly scrapes the surface. Politics likely have a heavy influence on funding, and while the country still provides trillions of dollars in assistance, the aid is often disproportionate among its benefiters. The U.S. Agency for International Development, which is responsible for foreign assistance, received an extra $7 billion from the government in 2007, the year that democrats won control of congress from a previously red house and senate. Throughout most of the blue reign, funding continued to rise or stay the same. However, USAID saw a decrease in funding of $8 billion when republicans took back congress this year.</p>
+	</div>
+	<div class="row">
+	    <div class="hidden-xs col-xs-3">
+	    </div>
+	    <div class="col-xs-12 col-sm-6">
+		<div class="col-xs-3">
+		    <h1 class="big-fact">1%</h1> 
+		</div>
+		<div class="col-xs-9">
+		    <h1 class="big-fact-text"><span style="color:#000;font-size:20px">Less than one percent of the U.S. budget is spent on international development.</span></h1>
+		</div>
+	    </div>
+	    <div class="hidden-xs col-xs-3"></div>
+	</div>
+	<div class="row">
+	    <h4>Federal funding for USAID by year</h4>
 	    <div class="col-xs-12 legend">
 		<div class="col-xs-4">
 		    <div class="col-xs-1" style="width:20px;height:20px;background-color:#fa9d9d;"></div>
@@ -92,30 +113,49 @@
 	    <div id="line1"></div>
 	</div>
 	<div class="row">
-	    <p class= "intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    <p class= "intro">While USAID provided assistance to 126 countries in 2014, it tended to focus on Middle Eastern and African countries. Among those, about 9 percent of the $11 trillion in disbursements went to Afghanistan, which received $10 billion more in aid than Jordan, the second most funded country. Of the disbursement categories, USAID spent the most on assisting with peace and security, economic development, and health, while issues like the environment received less attention.</p>
 	</div>
 	<div class="row">
-	    <div class="col-xs-5">
-		<h5>Top USAID assistance recipients in 2013</h5>
-		<div id="column1"></div>
-	    </div>
-	    <div class="col-xs-7">
-		<h5 class="categories-title">USAID dispursement categories in 2013</h5>
-		<div id="pie1"></div>
-	    </div>
+		<div class="col-xs-12 col-sm-5 column1-text">
+		    <h5>Top USAID assistance recipients in 2014</h5>
+		    <div id="column1"></div>
+		</div>
+		<div class="col-xs-12 col-sm-7 pie1-text">
+		    <h5 class="categories-title">USAID disbursement categories in 2014</h5>
+		    <div id="pie1"></div>
+		</div>
 	
 	</div>
-	    <table id="example" cellspacing="0" width="100%">
+	<div class="row">
+	    
+	    <h5>All countries that recieved USAID disbursements in 2014</h5>
+	</div>
+	    <table id="example" class="table" cellspacing="0" width="100%">
 		<thead>
 		    <tr>
 			<th style="color:#000">Rank</th>
 			<th style="color:#000">Country</th>
-			<th style="color:#000">Top dispursement category</th>
-			<th style="color:#000">Dispursement</th>
+			<th style="color:#000">Top disbursement category</th>
+			<th style="color:#000">Disbursement (billions)</th>
 		    </tr>
 		</thead>
 
 	    </table>
+    </div>
+    
+    <div class="container-fluid">
+	<div class="row">
+	    <div class="footer col-xs-12">
+	    
+	      <div class="col-xs-1">
+		<img src="images/latimes-logo-small.png" class="footer-brand" alt="Small Logo">
+	      </div>
+	      <div class="col-xs-11 footer-links">
+		<a href="#"></p>Terms of Service</a>&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;<a href="#">About Our Ads</a>&nbsp;&nbsp;<a href="#">©2015</a>&nbsp;&nbsp;<a href="#">About This Site</a>
+	      </div>
+	    </div>
+	</div>
+	
     </div>
     
 
